@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Drive Mark",
   "description": "Map your Google drive to bookmark for easy access.",
-  "version": "1.0",
+  "version": "1.0.1",
   "options_page": "options.html",
   "browser_action": {
     "default_icon": "bookmark-16.png"
