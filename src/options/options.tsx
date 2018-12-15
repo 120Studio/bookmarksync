@@ -39,11 +39,11 @@ class Options extends React.Component<{}, IOptionsState> {
   render() {
     return (
       <Layout style={{ height: '100vh' }}>
-        <Sider trigger={null} collapsible={false} >
+        <Sider width='230px' trigger={null} collapsible={false} >
           <div className="logo" >
             <a href='https://120studio.github.io/120home/drivemark.html' target='_blank'>
               <img src='./../bookmark-48.png' />
-              <h1>Drive Mark</h1>
+              <h1>Drive Bookmark</h1>
             </a>
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
@@ -71,7 +71,7 @@ class Options extends React.Component<{}, IOptionsState> {
             <GoogleDrivePanel onAccountChange={this.googleAccountChange} />
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            <div>Drive Mark @ <a href='https://120studio.github.io/120home/'>120 Studio</a></div>
+            <div>Drive bookmark @ <a href='https://120studio.github.io/120home/'>120 Studio</a></div>
           </Footer>
         </Layout>
       </Layout>
