@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
     "dev": "webpack --config webpack/webpack.dev.js",
-    "build": "webpack --config webpack/webpack.prod.js",
+    "build": "rm -rf ./dist && webpack --config webpack/webpack.prod.js",
     "reactdev": "react-devtools"
   },
   "author": "",
